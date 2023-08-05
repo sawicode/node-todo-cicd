@@ -4,7 +4,7 @@ pipeline{
     stages {
         stage('git checkout') {
             steps {
-                git 'https://github.com/javahometech/myweb'
+                git 'https://github.com/sawicode/node-todo-cicd/'
             }
             
         }
